@@ -11,8 +11,9 @@
 
 6. Find all track names that start with 'B' and end with 's'.
 
-7. Use the invoices table to find all information regarding invoices whose billing address is USA or Germany or Norway or Canada and invoice date is at any point in 2010, sorted from newest to oldest.*/
+7. Use the invoices table to find all information regarding invoices whose billing address is USA or Germany or Norway or Canada and invoice date is at any point in 2010, sorted from newest to oldest.
 
+Note: Use chinook database to answer the questions. */
 --ANSWERS
 --1
 SELECT InvoiceId,CustomerId,total
